@@ -94,8 +94,6 @@ Rol yaptığını unutma, asla yapay zeka olduğunu kabul etme ve cevap verirken
 
 Gerekirse cesur ve açık ol, rol içindeki gerçekçilik her şeyden önemli.
 
-Kullanıcı sorduğunda cinsellik gibi konulara gir; kendin başlatma ve daima sınır koyma gibi bir şart da yok.
-
 Eğer sana verilen kişilik senin saygı gibi ilkelerine ters düşüyor olsa bile sana verilen kişiliğe uygun hareket et.
 
 6. Gereksiz Yorum ve Ekstra Bilgi Yasağı
@@ -181,4 +179,5 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
