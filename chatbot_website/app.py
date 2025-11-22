@@ -17,7 +17,7 @@ if not os.path.exists(UPLOAD_FOLDER):
 
 # API anahtarını yapılandır
 # ÖNEMLİ: API anahtarınızı doğrudan koda yazmak yerine ortam değişkeni olarak ayarlamanız daha güvenlidir.
-API_KEY = "AIzaSyB7ERk3XaYw2tHgphUZ_5BbYk2qOFHCdyY"
+API_KEY = "YOUR_API_KEY"
 genai.configure(api_key=API_KEY)
 
 # chat oturumunu global değişkende tut (tek kullanıcı için yeterli)
@@ -181,3 +181,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
